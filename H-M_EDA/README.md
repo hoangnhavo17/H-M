@@ -31,22 +31,26 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 
 ### Customers data description:
 
-* customer_id : A unique identifier of every customer
-* FN : 1 or missed
-* Active : 1 or missed
-* club_member_status : Status in club
-* fashion_news_frequency : How often H&M may send news to customer
-* age : The current age
-* postal_code : Postal code of customer
+| Field                     | Description                                                              |
+|---------------------------|--------------------------------------------------------------------------|
+| `customer_id`             | A unique identifier for each customer                                   |
+| `FN`                      | Flag indicator: 1 or missing                                            |
+| `Active`                  | Flag indicating active status: 1 or missing                             |
+| `club_member_status`      | Status of customer in the club                                          |
+| `fashion_news_frequency`  | Frequency at which H&M may send news to the customer                    |
+| `age`                     | Current age of the customer                                             |
+| `postal_code`             | Customer's postal code                                                  |
 
 ### Transactions field description:
 
-* t_dat : Purchase date
-* day_of_week: Purchase day of week (Monday: 1, Tue: 2, …, Sun: 7) (This is a new field we added on top of the orignal dataset)
-* customer_id : A unique identifier of every customer (in customers table)
-* article_id : A unique identifier of every article (in articles table)
-* price : Purchase price
-* sales_channel_id : 1 or 2 (1 is store and 2 is online, ref: https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/305952#1684481) => It is transformed into sales_channel field with 1 is In-store and 2 is Online
+| Field                | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| `t_dat`              | Purchase date                                                              |
+| `day_of_week`        | Purchase day of the week (Monday = 1, ..., Sunday = 7) — *added field*     |
+| `customer_id`        | Unique identifier for each customer (linked to `customer_id` in Customers) |
+| `article_id`         | Unique identifier for each article (linked to `article_id` in Articles)    |
+| `price`              | Purchase price                                                             |
+| `sales_channel_id`   | Sales channel: 1 = In-store, 2 = Online                                    |
 
 ## Executive Summary
 ### 1. What are the key purchasing trends amongst customers, and how do they change over time?
