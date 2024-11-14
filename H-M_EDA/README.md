@@ -11,7 +11,7 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 - **Customers**: Demographic data on individual customers.
 - **Transactions**: Records of customer purchases.
 
-Article data description:
+Articles data description:
 
 * article_id : A unique identifier of every article.
 * product_code, prod_name : A unique identifier of every product and its name (not the same).
