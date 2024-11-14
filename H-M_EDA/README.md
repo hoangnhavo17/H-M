@@ -46,7 +46,6 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 | Field                | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | `t_dat`              | Purchase date                                                              |
-| `day_of_week`        | Purchase day of the week (Monday = 1, ..., Sunday = 7) — *added field*     |
 | `customer_id`        | Unique identifier for each customer (linked to `customer_id` in Customers) |
 | `article_id`         | Unique identifier for each article (linked to `article_id` in Articles)    |
 | `price`              | Purchase price                                                             |
