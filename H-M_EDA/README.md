@@ -11,22 +11,25 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 - **Customers**: Demographic data on individual customers.
 - **Transactions**: Records of customer purchases.
 
-Articles data description:
+### Articles data description:
 
-* article_id : A unique identifier of every article.
-* product_code, prod_name : A unique identifier of every product and its name (not the same).
-* product_type, product_type_name : The group of product_code and its name
-* graphical_appearance_no, graphical_appearance_name : The group of graphics and its name
-* colour_group_code, colour_group_name : The group of color and its name
-* perceived_colour_value_id, perceived_colour_value_name, perceived_colour_master_id, perceived_colour_master_name : The added color info
-* department_no, department_name: : A unique identifier of every dep and its name
-* index_code, index_name: : A unique identifier of every index and its name
-* index_group_no, index_group_name: : A group of indeces and its name
-* section_no, section_name: : A unique identifier of every section and its name
-* garment_group_no, garment_group_name: : A unique identifier of every garment and its name
-* detail_desc: : Details
+| Field                       | Description                                                              |
+|-----------------------------|--------------------------------------------------------------------------|
+| `article_id`                | A unique identifier for each article                                    |
+| `product_code`, `prod_name` | Unique identifier and name for each product (not the same)              |
+| `product_type`, `product_type_name` | Group identifier and name for each product type               |
+| `graphical_appearance_no`, `graphical_appearance_name` | Graphics group identifier and name       |
+| `colour_group_code`, `colour_group_name` | Color group identifier and name                           |
+| `perceived_colour_value_id`, `perceived_colour_value_name`, `perceived_colour_master_id`, `perceived_colour_master_name` | Additional color information      |
+| `department_no`, `department_name` | Unique identifier and name for each department                |
+| `index_code`, `index_name`  | Unique identifier and name for each index                               |
+| `index_group_no`, `index_group_name` | Group identifier and name for indices                       |
+| `section_no`, `section_name` | Unique identifier and name for each section                            |
+| `garment_group_no`, `garment_group_name` | Unique identifier and name for each garment group        |
+| `detail_desc`               | Detailed description of the article                                     |
 
-Customers data description:
+
+### Customers data description:
 
 * customer_id : A unique identifier of every customer
 * FN : 1 or missed
@@ -36,7 +39,7 @@ Customers data description:
 * age : The current age
 * postal_code : Postal code of customer
 
-Transactions field description:
+### Transactions field description:
 
 * t_dat : Purchase date
 * day_of_week: Purchase day of week (Monday: 1, Tue: 2, …, Sun: 7) (This is a new field we added on top of the orignal dataset)
