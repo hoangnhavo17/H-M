@@ -11,7 +11,7 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 - **Customers**: Metadata for each customer_id in dataset.
 - **Transactions**: Consists of the purchases of each customer for each data, as well as additional information. 
 
-### Articles data description:
+### Articles field description:
 
 | Field                       | Description                                                              |
 |-----------------------------|--------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ The datasets are sourced from the [H&M Personalized Fashion Recommendations comp
 | `detail_desc`               | Detailed description of the article                                     |
 
 
-### Customers data description:
+### Customers field description:
 
 | Field                     | Description                                                              |
 |---------------------------|--------------------------------------------------------------------------|
