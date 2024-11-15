@@ -5,7 +5,7 @@ H&M, founded in 1947, is a multinational fashion retailer that offers affordable
 
 This project conducts an exploratory data analysis (EDA) on H&M's transactional data, aiming to uncover insights into customer purchasing behavior, product popularity, and sales trends. The goal is to provide a well-rounded view of the data, which can support data-driven decisions in marketing, inventory planning, and customer engagement.
 
-## Data Structure & Initial Checks
+## Data Structure
 The datasets are sourced from the [H&M Personalized Fashion Recommendations competition on Kaggle](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data), including:
 - **Articles**: Detailed metadata for each article_id available for purchase.
 - **Customers**: Metadata for each customer_id in dataset.
