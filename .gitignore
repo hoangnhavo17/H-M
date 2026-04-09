@@ -1,0 +1,44 @@
+# R — session / workspace (rebuild by running H-M_Case-Study.R)
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+*.Rout
+Rplots.pdf
+
+# RStudio
+.Rproj.user/
+*.Rproj.user
+
+# Python / Jupyter
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.venv_pdf/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Kaggle image bundle (not used by the R case study; very large)
+images/
+images.zip
+
+# Generated outputs (regenerate by running the R script)
+output/figures/*.png
+output/figures/*.jpg
+output/figures/*.jpeg
+output/figures/*.pdf
+
+# Optional scratch
+H-M_Case-Study/R Console.txt
+
+# Kaggle data (keep local; download from Kaggle link)
+data/articles.csv
+data/customers.csv
+data/transactions_train.csv
+data/pp_*.csv
